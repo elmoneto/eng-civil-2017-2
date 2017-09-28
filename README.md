@@ -1,7 +1,7 @@
 # Algoritmo e Programação (ELC106)
 ## Engenharia Civil 2017/2
 
-Professor: Celio Trois ([trois@inf.ufsm.br](mailto:trois.inf.ufsm.br))<br>
+Professor: Celio Trois ([trois@inf.ufsm.br](mailto:trois@inf.ufsm.br))<br>
 Monitor: Elmo Neto ([elmo@inf.ufsm.br](mailto:elmo@inf.ufsm.br))<br>
 
 Observações:<br>
