@@ -8,6 +8,6 @@ Observações:<br>
 1. Os códigos-fonte deste repositório foram executados usando Python 3.<br>
 * A entrada digitada pelo usuário deve ser convertida para o tipo de dados `int` ou `float` quando for necessário.<br>
 * Acentuação pode ser usada sem problemas.<br>
-* Leitura Rápida: [Usar Python 2 ou Python 3?](python.org.br/qual-python)
+* Leitura Rápida: [Usar Python 2 ou Python 3?](http://python.org.br/qual-python)
 
 2. São mostradas soluções para os exercícios, mas elas **NÃO** são as únicas possíveis.
