@@ -3,7 +3,7 @@
 #a) Imprima os valores negativos. 
 #b) Calcule e imprima a média dos valores positivos. 
 
-somatorio = 0 #variável que acumula o valor de cada valor positivo
+somatorio = 0 #variável que acumula cada valor positivo
 qtdePositivos = 0 #variável que armazena a quantidade de valores positivos
 negativos = '' #declaração de uma string vazia
 
