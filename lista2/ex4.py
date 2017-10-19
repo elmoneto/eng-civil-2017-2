@@ -12,7 +12,7 @@ if dif > 0: #significa que ele vai pagar multa (falta verificar quanto)
       print('Valor da multa: R$ 50,00.')
    elif(dif >= 11 and dif <= 30):
       print('Valor da multa: R$ 100,00.')
-   elif(dif >= 31):
+   else:
       print('Valor da multa: R$ 200,00. Vai abrindo a carteira.')
 else: #significa que ele não vai pagar multa
    print('Motorista dentro do limite de velocidade.')
