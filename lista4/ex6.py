@@ -9,20 +9,20 @@
 #2.3 ocorre 1 vez
 
 lista = []
-listaVisitados = [] #armazena quais números que já foram contabilizados em rodadas anteriores
+listaContabilizados = [] #armazena quais números que já foram contabilizados em rodadas anteriores
 n = int(input('Informe o número de elementos da lista: '))
 
 for i in range(0,n):
    lista.append(int(input('Informe um número: ')))
 
 for i in range(0,n):
-   if(lista[i] in listaVisitados):
+   if(lista[i] in listaContabilizados):
       continue #se número já foi contabilizado antes, pula para a próxima posição
    cont = 1
    for j in range(i+1,n):
       if(lista[i] == lista[j]):
          cont += 1
-   listaVisitados.append(lista[i]) #no final da contagem de aparições, adiciona o número à lista de visitados
+   listaContabilizados.append(lista[i]) #no final da contagem de aparições, adiciona o número à lista de visitados
    print(str(lista[i]) + ' ocorre ' + str(cont) + 'x')
    
    
