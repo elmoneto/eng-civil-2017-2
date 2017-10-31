@@ -13,7 +13,7 @@ listaContabilizados = [] #armazena quais números que já foram contabilizados e
 n = int(input('Informe o número de elementos da lista: '))
 
 for i in range(0,n):
-   lista.append(int(input('Informe um número: ')))
+   lista.append(float(input('Informe um número: ')))
 
 for i in range(0,n):
    if(lista[i] in listaContabilizados):
@@ -22,7 +22,7 @@ for i in range(0,n):
    for j in range(i+1,n):
       if(lista[i] == lista[j]):
          cont += 1
-   listaContabilizados.append(lista[i]) #no final da contagem de aparições, adiciona o número à lista de visitados
+   listaContabilizados.append(lista[i]) #no final da contagem de aparições do número, o adiciona à lista de contabilizados
    print(str(lista[i]) + ' ocorre ' + str(cont) + 'x')
    
    
