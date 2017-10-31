@@ -6,7 +6,6 @@
 #O programa se encerra quando o usuário informar 0 para o valor de x.
 
 listaCoeficientes = []
-listaValores = []
 x = 1
 
 n = int(input("Informe o grau do polinômio: "))
